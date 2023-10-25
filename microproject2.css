@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 100vw;
+    background-color: #6F6AF7;
+}
+.logo{
+    position: relative;
+    padding-left: 30px;
+}
+.cont{
+    justify-content: space-between;
+    position: relative;
+    padding-left:50px;
+    display:flex;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+li{
+    margin-right: 25px;
+}
+.search_bar{
+    position: relative;
+    padding-left:20px;
+}
+.input{
+    border-radius: 15px;
+    height: 30px;
+    width: 175px;
+}
+.boxes{
+    display: flex;
+}
+.image_box{
+    height: 507px;
+    width: 456px;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    padding-left: 125px;
+    padding-top: 100px;
+}
+.message_box{
+    background-color: #E5D8FF;
+    width: 772px;
+    height: 500px;
+    position:absolute;
+    top: 215px;
+    left: 650px;
+    border-radius: 20px;
+    font-style: DM Sans;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 650px;
+    font-style: DM sans;
+    align-items: center;
+}
+.card1{
+    background-color: #929DFF;
+    color: #FFFFFF;
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+}
+.card2{
+    background-color: #734CF2;
+    color: #FFFFFF;
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+}
+.card3{
+    background-color: #D288FF;
+    color: #FFFFFF;
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+}
+.card4{
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+}
+.imageicon{
+    display: flex;
+    position: absolute;
+    align-items: start;
+    height: 80px;
+    width: 80px;
+    padding-left: 120px;
+}
+.bluecard{
+    display: flex;
+    background-color: #483EFF;
+    width: 1300px;
+    height: 540px;
+    position: absolute;
+    left: 8%;
+    border-radius: 10px;
+}
+.infocard{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    font-weight: bold;
+    justify-content: space-around;
+    height: 60px;
+    width: 200px;
+    background-color: #BCE0F6;
+    border-radius: 10px;
+}
+.bookmarks{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 230px;
+    justify-content: space-around;
+    height: 60px;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.settings{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 405px;
+    justify-content: space-around;
+    height: 60px;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.whitecard{
+    width: 850px;
+    height: 500px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:20px;
+    left: 400px;
+    border-radius: 10px;
+}
+.heading{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+ul{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sh{
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+.det{
+    position: absolute;
+    top: 150px;
+    left: 280px;
+}
+.nextbutton{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 450px;
+    left: 700px;
+    height: 35px;
+    width: 100px;
+    background-color:#000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.arrow{
+    display: flex;
+    height: 25px;
+    width: 25px;
+}
+.sticky{
+    position: sticky;
+    top: 80px;
+    margin-top:25vh;
+    float: right;
+
+}
+
+.stickyimage{
+    height: 200px;
+    width: 75px;
+    display: block;
+    width: fit-content;
+}
